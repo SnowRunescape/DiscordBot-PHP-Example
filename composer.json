@@ -1,0 +1,23 @@
+{
+  "name": "snowrunescape/discordbot-php-example",
+  "description": "Discord Bot PHP Example",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Bruno Caitano",
+      "email": "snowrunescape@snowdev.com.br",
+      "role": "Developer",
+      "homepage": "https://snowdev.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bot\\": "src/"
+    }
+  },
+  "require": {
+    "snowrunescape/discord-bot-php": "^3.0.0",
+    "vlucas/phpdotenv": "^5.4.1"
+  }
+}
